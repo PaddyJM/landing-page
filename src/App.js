@@ -21,7 +21,7 @@ function App() {
           </motion.button>
         </motion.div>
         <motion.div
-          initial={{ y: '+300%' }}
+          initial={{ y: '+200%' }}
           animate={{ y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}>
           <p>Hi 👋 I&apos;m Paddy, nice to meet you!</p>
