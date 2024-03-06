@@ -20,7 +20,12 @@ function App() {
             </a>
           </motion.button>
         </motion.div>
-        <p>Hi 👋 I&apos;m Paddy, nice to meet you!</p>
+        <motion.div
+          initial={{ y: '+300%' }}
+          animate={{ y: 0 }}
+          transition={{ duration: 0.7, delay: 0.1 }}>
+          <p>Hi 👋 I&apos;m Paddy, nice to meet you!</p>
+        </motion.div>
       </header>
     </div>
   );
