@@ -4,14 +4,11 @@
 
 .App-profile {
   height: 40vmin;
-  pointer-events: none;
-  clip-path: circle();
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-profile {
-    animation: App-profile-slidein 0.5s linear;
-  }
+.App-profile-motion {
+  height: 40vmin;
+  clip-path: circle();
 }
 
 .App-header {
@@ -29,11 +26,3 @@
   color: #61dafb;
 }
 
-@keyframes App-profile-slidein {
-  from {
-    transform: translateY(-100%);
-  }
-  to {
-    transform: translateY(0%);
-  }
-}
