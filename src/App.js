@@ -15,10 +15,12 @@ function App() {
             className="App-profile-motion"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}>
-            <img src={profile} className="App-profile" alt="logo" />
+            <a href="https://github.com/PaddyJM">
+              <img src={profile} className="App-profile" alt="logo" />
+            </a>
           </motion.button>
         </motion.div>
-        <p>Hi 👋 I'm Paddy, nice to meet you!</p>
+        <p>Hi 👋 I&apos;m Paddy, nice to meet you!</p>
       </header>
     </div>
   );

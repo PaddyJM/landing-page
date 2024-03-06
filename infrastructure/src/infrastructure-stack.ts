@@ -16,7 +16,7 @@ export class InfrastructureStack extends cdk.Stack {
 
     new cdk.aws_s3_deployment.BucketDeployment(this, 'LandingPageWebsite', {
       sources: [cdk.aws_s3_deployment.Source.asset('../build')],
-      destinationBucket: bucket,
+      destinationBucket: bucket
     });
   }
 }
